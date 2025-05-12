@@ -16,10 +16,6 @@ Date: 5/7/2025
 header {
   background: #373b3e;
   padding: 1.5em 0 1em 0;
-  text-align: center;
-  color: #e12885;
-  text-shadow: -1px -1px 0px #FFFFFF, -1px 1px 10px #137a7f;
-  font-size: 35px;
 
 }
 
@@ -326,6 +322,12 @@ nav a:hover {
     align-items: center;
     gap: 1em;
   }
+  .tag-block .tag-block2 {
+   display: flex;
+   align-items: right;          
+   align-self: flex-start;
+  
+}
 
   header h2 {
     margin-left: 0;
