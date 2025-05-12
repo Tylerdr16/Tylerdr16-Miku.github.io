@@ -40,8 +40,8 @@ header h2{
 	display: flex;
 	align-items: center;
 	gap: 4rem;
-	width: 800vw;
-        height: 500vw;
+	width: 500vw;
+        height: 200vw;
 } 
 .tag-block .tag-block2 {
   display: flex;
