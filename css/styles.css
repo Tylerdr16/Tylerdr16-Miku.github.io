@@ -308,16 +308,10 @@ nav a:hover {
   }
 
   header {
-	  /*
+	  
     font-size: 1.5em;
     padding: 1em 0 0.5em 0;
-	  */
-  background: #373b3e;
-  padding: 1.5em 0 1em 0;
-  text-align: center;
-  color: #e12885;
-  text-shadow: -1px -1px 0px #FFFFFF, -1px 1px 10px #137a7f;
-  font-size: 35px;
+	  
 
   }
 
@@ -351,15 +345,11 @@ nav a:hover {
 	
 
   nav a {
-   color: #fff;
-   text-decoration: none;
-   font-weight: bold;
-   font-size: 1.1em;
-   transition: color 0.2s;
-	  /*
+
+	  
     font-size: 1em;
     padding: 0.5em 0;
-	  */
+	  
   }
 
   main, .main-music, .main-merch {
