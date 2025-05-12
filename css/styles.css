@@ -295,3 +295,84 @@ nav a:hover {
 .merch-item strong a:hover {
   color: #137a7f;
 }
+
+/*Style rules for mobile*/
+@media (max-width: 700px) {
+  body {
+    font-size: 1em;
+    padding: 0;
+  }
+
+  header {
+    font-size: 1.5em;
+    padding: 1em 0 0.5em 0;
+  }
+
+  .container, .logo-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  header h2 {
+    margin-left: 0;
+    width: 100%;
+    font-size: 1.1em;
+    vertical-align: middle;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1em;
+    padding: 0.5em 0;
+  }
+
+  nav a {
+    font-size: 1em;
+    padding: 0.5em 0;
+  }
+
+  main, .main-music, .main-merch {
+    padding: 1em 0.5em;
+    margin: 1em 0.2em;
+    border-radius: 0.5em;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+
+  .section img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .section h1, .section h2 a {
+    width: 95%;
+    font-size: 1.2em;
+    padding: 0.5em 0;
+  }
+
+  .video-list, .merch-gallery {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .video-item, .merch-item {
+    flex-direction: column;
+    width: 100%;
+    max-width: 95vw;
+    height: auto;
+    padding: 0.5em;
+  }
+
+  .merch-item img, .video-item img, .video-item iframe {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+}
