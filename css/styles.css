@@ -326,6 +326,7 @@ nav a:hover {
    display: flex;
    align-items: right;          
    align-self: flex-start;
+   width: 100%;
   
 }
 
