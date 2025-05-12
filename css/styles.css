@@ -1,0 +1,297 @@
+
+/* 
+
+Name: Tyler r
+File: styles.css
+Date: 5/7/2025
+
+*/
+
+/* styles.css */
+
+
+
+
+/*style rules for nav area*/
+header {
+  background: #373b3e;
+  padding: 1.5em 0 1em 0;
+  text-align: center;
+  color: #e12885;
+  text-shadow: -1px -1px 0px #FFFFFF, -1px 1px 10px #137a7f;
+  font-size: 35px;
+
+}
+
+header h2{
+  width: 60px; /* Adjust size as needed */
+  height: auto;
+  margin-left: -115rem; /* Space between image and text */
+  vertical-align: -50px;
+}
+/*Style rules for header image*/
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centers content horizontally */
+  gap: 0;
+  justify-content: space-evenly;
+ 
+}
+
+/*Style rules for the logo and tag blocks in header*/
+.logo-block{
+	display: flex;
+	align-items: center;
+	gap: 4rem;
+} 
+.tag-block .tag-block2 {
+  display: flex;
+  align-items: right;          
+  align-self: flex-start;
+  
+}
+
+
+
+/*Style rules for nav*/
+nav {
+  background: #e12885;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 1em 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+  
+}
+
+nav a:hover {
+  color: #137a7f;
+}
+
+/*style rules for main*/
+main {
+  max-width: 1500px;
+  margin: 2em auto;
+  background: rgba(55, 59, 62, 0.8);
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/*Style rules for various main classes*/
+.main-music{
+  max-width: 1200px;
+  margin: 2em auto;
+  background: rgba(55, 59, 62, 0.8);
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.main-music h2{
+  font-weight: bold;   
+  background-color: #e12885;
+  display: block;
+  justify-content: left;
+  gap: 2em;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+  display: inline-block;
+}
+
+.main-merch h2{
+  font-weight: bold;   
+  background-color: #e12885;
+  display: block;
+  justify-content: left;
+  gap: 2em;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+  display: inline-block;
+}
+
+/*Style rules for body*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #137a7f;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/*Style Rules for sections*/
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-bottom: 2em;
+  align-items: flex-start;
+}
+
+.section img {
+  max-width: 525px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(19,122,127,0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.section h1{
+  background: #e12885;
+  width: 50%;         
+  margin: 0 auto;     
+  padding: 0.5em 0;   
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: .5em 0;
+  font-size: 2em;
+  font-weight: bold
+}
+
+.section h2 a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25em;
+  transition: color 0.2s;
+  background: #e12885;
+  width: 50%;         
+  margin: 0 auto;     
+  padding: 0.5em 0;   
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: .5em 0;
+  border-radius: 0.5em;
+}
+
+.section h2 a:hover {
+  color: #137a7f;
+  text-decoration: ;
+}
+	
+nav a:hover {
+  color: #137a7f;
+}
+
+/*Media query style rules*/
+@media (max-width: 700px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    padding: 1em;
+  }
+}
+
+.main-music strong {
+  font-weight: bold;   
+  background-color: #e12885;
+  display: block;
+  justify-content: left;
+  gap: 2em;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+  display: inline-block;
+}
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.video-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+}
+
+.video-item iframe, .video-item img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: px;
+}
+
+.video-item .desc {
+	font-size: 1.25em;
+	text-align: left;
+	
+}
+
+/*Style rules for merch page*/
+.merch-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.merch-gallery strong {
+  font-weight: bold;   
+  background-color: #e12885;
+  display: block;
+  justify-content: left;
+  gap: 2em;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+  display: inline-block;
+}
+
+.merch-gallery h1{
+  font-weight: bold;   
+  background-color: #e12885;
+  display: block;
+  justify-content: center;
+  gap: 2em;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+  display: inline-block;
+}
+
+.merch-item {
+  background: #137a7f;
+  border: 2px solid #e12885;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+}
+
+.merch-item img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 6px;
+  margin-bottom: 0.5em;
+}
+
+.merch-item p {
+  margin: 0;
+  color: #bec8d1;
+  font-weight: bold;
+}
+
+.merch-item strong a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+	
+.merch-item strong a:hover {
+  color: #137a7f;
+}
