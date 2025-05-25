@@ -20,6 +20,7 @@ header {
   color: #e12885;
   text-shadow: -1px -1px 0px #FFFFFF, -1px 1px 10px #137a7f;
   font-size: 35px;
+
 }
 
 header h2{
@@ -43,7 +44,6 @@ header h2{
 	display: flex;
 	align-items: center;
 	gap: 4rem;
-	
 } 
 .tag-block .tag-block2 {
   display: flex;
@@ -299,20 +299,13 @@ nav a:hover {
 /*Style rules for mobile*/
 @media (max-width: 700px) {
   body {
-   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #137a7f;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 1em;
+    font-size: 1em;
+    padding: 0;
   }
 
   header {
-	  
     font-size: 1.5em;
     padding: 1em 0 0.5em 0;
-	  
-
   }
 
   .container, .logo-block {
@@ -320,13 +313,6 @@ nav a:hover {
     align-items: center;
     gap: 1em;
   }
-  .tag-block .tag-block2 {
-   display: flex;
-   align-items: right;          
-   align-self: flex-start;
-   width: 100%;
-  
-}
 
   header h2 {
     margin-left: 0;
@@ -336,20 +322,14 @@ nav a:hover {
   }
 
   nav {
-    display: inline-block;  
-    flex-direction: row;
+    flex-direction: column;
     gap: 1em;
     padding: 0.5em 0;
-	  
   }
-	
 
   nav a {
-
-	  
     font-size: 1em;
     padding: 0.5em 0;
-	  
   }
 
   main, .main-music, .main-merch {
